@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "next",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
+    // check error during code and ignored in production
+  ],
+  // "rules": {
+  //   "react/jsx-no-target-blank": [2, { "allowReferrer": true }],
+  //   "react/display-name": [0, { "ignoreTranspilerName": false }]
+  // },
+  // "overrides": [
+  //   {
+  //     "files": ["*.js"],
+  //     "rules": {
+  //       "import/no-anonymous-default-export": "off"
+  //     }
+  //   }
+  // ]
+}
